@@ -5,12 +5,19 @@
       app
     >
       <v-list>
-          <v-list-item-title class="pa-4 ma-0 title">
-            <span class="part1-text">Zev</span><span class="part2-text">book</span>
-          </v-list-item-title>
-
-          <v-divider vertical></v-divider>
-
+          <v-img
+            src="../assets/ob_whitebackground.png"
+            aspect-ratio="1"
+            class="grey lighten-2 ma-2"
+            >
+          </v-img>
+          <v-text-field
+              class="pa-3"
+              label="Search"
+              single-line
+              solo
+              icon="mdi-magnify-outline"
+            ></v-text-field>
         <v-list-item @click="">
           <v-list-item-action>
             <v-icon>mdi-home</v-icon>
@@ -52,8 +59,17 @@
       dark
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+          <v-img
+            src="../assets/onebooklogo.png"
+            aspect-ratio="1"
+            class="grey lighten-2 mr-2"
+            max-width="50"
+            max-height="50"
+            >
+
+          </v-img>
       <v-toolbar-title>
-        <span id="part1-text">Zev</span><span id="part2-text">book</span>
+        onebook
       </v-toolbar-title>
 
       <div class="flex-grow-1"></div>

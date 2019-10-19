@@ -23,8 +23,8 @@
       </v-card-text>
       <v-card-text class="body-1">
         Linear equations are <span class="font-weight-bold">first-order</span>, which means that none items
-        variables are raised to a higher power. This means that <span class="highlight-2">the slope a linear function is constant</span>,
-        so we end up with straight lines when we graph our function.
+        variables are raised to a higher power. Thus <span class="highlight-2">the slope a linear function is constant</span>,
+        so the function shows straight lines when graphed.
       </v-card-text>
     </v-card>
 
