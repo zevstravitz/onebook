@@ -42,6 +42,14 @@
             <v-list-item-title>Dashboard</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+        <v-list-item @click="">
+          <v-list-item-action>
+            <v-icon>mdi-account</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>Account</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         
         <v-divider vertical></v-divider>
 
